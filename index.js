@@ -17,12 +17,12 @@ var api = new ParseServer({
   appId: process.env.APP_ID || 'mobilenexusandroid',
   masterKey: process.env.MASTER_KEY || 'mobilenexus226', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://mobilenexusandroid.herokuapp.com/parse',  // Don't forget to change to https if needed
-  //  push: {
-  //android: {
-  //  senderId: '', // The Sender ID of GCM
-  //  apiKey: '' // The Server API Key of GCM
-  //}
-  //  },
+  push: {
+  android: {
+    senderId: '370620842061', // The Sender ID of GCM
+    apiKey: 'AIzaSyAoBKHPxRn3BLDdKxNOj0bFA7LO_JUmunY' // The Server API Key of GCM
+    }
+  },
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
