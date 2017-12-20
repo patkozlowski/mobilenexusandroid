@@ -22,7 +22,7 @@ var api = new ParseServer({
   //  senderId: '', // The Sender ID of GCM
   //  apiKey: '' // The Server API Key of GCM
   //}
-    },
+  //  },
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
