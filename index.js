@@ -19,8 +19,7 @@ var api = new ParseServer({
   serverURL: process.env.SERVER_URL || 'http://mobilenexusandroid.herokuapp.com/parse',  // Don't forget to change to https if needed
   push: {
   android: {
-    senderId: '370620842061', // The Sender ID of GCM
-    apiKey: 'AIzaSyDtWS79CjFvVmh4oEVkRAV8BCMKJqtK0aI' // The Server API Key of GCM
+    apiKey: 'AIzaSyD7SiFeRM7XxOAHfnwPeo9m9gy9LKpJrFA' // The Server API Key of GCM
     }
   },
   liveQuery: {
