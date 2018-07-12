@@ -14,6 +14,7 @@ if (!databaseUri) {
 var api = new ParseServer({
   databaseURI: databaseUri || 'mongodb://heroku_8sxqfth4:vcuj4okdm8eue4jlo8gj1nj1js@ds127730.mlab.com:27730/heroku_8sxqfth4',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
+  verbose: true,
   appId: process.env.APP_ID || 'mobilenexusandroid',
   masterKey: process.env.MASTER_KEY || 'mobilenexus226', //Add your master key here. Keep it secret!
   serverURL: process.env.SERVER_URL || 'http://mobilenexusandroid.herokuapp.com/parse',  // Don't forget to change to https if needed
